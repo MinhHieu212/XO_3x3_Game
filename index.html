@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game XO</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section id="gamePage">
+        <div class="gameSpace">
+            <div class="gameBackground">
+                <!-- <img src="https://plus.unsplash.com/premium_photo-1668024703982-2aee17bf8d09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt=""> -->
+                <img src="https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="">
+            </div>
+            <div class="overlayContent">
+                <h1>X/O Game</h1>
+                <p>Status: <span id="curentStatus">PLAYING</span></p>
+                <p>TURN: <span id="curentTurn" class="cross" style="font-size: 20px; color: red;"></span></p>
+                <ul id="gameBoard">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <button id="replayGame">Replay</button>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

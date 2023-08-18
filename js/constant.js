@@ -1,4 +1,5 @@
 export const GAME_STATUS = {
+    
     PLAYING: "PLAYING",
     END: "END",
     XWIN: "X WIN",
@@ -6,11 +7,13 @@ export const GAME_STATUS = {
 }
 
 export const TURN = {
+
     CROSS: "cross",
     CIRCLE: "circle"
 }
 
 export const CELL_VALUE = {
+
     CROSS: "X",
     CIRCLE: "O",
     WIN: "win",
